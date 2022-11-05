@@ -1,0 +1,74 @@
+{
+    "user": [
+        {
+            "id": 3767,
+            "name": "Anasooya Kocchar",
+            "email": "anasooya_kocchar@gleason.net",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 3766,
+            "name": "Anuja Chopra",
+            "email": "chopra_anuja@maggio.name",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 3765,
+            "name": "Chetan Bhattathiri IV",
+            "email": "chetan_iv_bhattathiri@ziemann.org",
+            "gender": "male",
+            "status": "inactive"
+        },
+        {
+            "id": 3764,
+            "name": "Bilva Pothuvaal PhD",
+            "email": "phd_pothuvaal_bilva@schoen.info",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 3762,
+            "name": "Aishani Bharadwaj",
+            "email": "aishani_bharadwaj@barrows.biz",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 3761,
+            "name": "Bodhan Butt",
+            "email": "bodhan_butt@hyatt-marks.org",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 3760,
+            "name": "The Hon. Nawal Dutta",
+            "email": "nawal_dutta_the_hon@emard.info",
+            "gender": "male",
+            "status": "active"
+        },
+        {
+            "id": 3759,
+            "name": "Tara Kakkar",
+            "email": "tara_kakkar@jacobs.com",
+            "gender": "female",
+            "status": "active"
+        },
+        {
+            "id": 3758,
+            "name": "Ameyatma Dwivedi",
+            "email": "ameyatma_dwivedi@rutherford.com",
+            "gender": "female",
+            "status": "inactive"
+        },
+        {
+            "id": 3757,
+            "name": "Dandapaani Mehrotra",
+            "email": "dandapaani_mehrotra@brown.com",
+            "gender": "female",
+            "status": "active"
+        }
+    ]
+}
