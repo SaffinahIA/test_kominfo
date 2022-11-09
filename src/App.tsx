@@ -1,21 +1,17 @@
 import './App.css';
-import ClassComponent from './1-component';
-import Box from '@mui/material/Box';
-import ColumnsGrid from './table'
-import UsePagination from './pagination';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from "./Home"
+import Detail from './Detail';
 
 
 function App() {
   return (
-    <Box>
-      <Box className="App">
-        <ClassComponent />
-      </Box>
-      <Box>
-       <ColumnsGrid/>
-      </Box>
-      <UsePagination/>
-    </Box>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/detail' element={<Detail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
