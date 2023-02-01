@@ -14,7 +14,7 @@ function Detail() {
         <Box>
             <Box className="App">
                 <div style={{ display: "flex", marginLeft: 50 }}>
-                    <h1>Lihat Pengguna</h1>
+                    <h1>Detail User</h1>
                 </div>
             </Box>
             <div style={{ padding: "40px", display: "flex", gap: "20px", flexDirection: "column", width: "300px" }}>

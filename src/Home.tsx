@@ -26,8 +26,9 @@ function Home() {
     const [err, setErr] = useState({})
 
     useEffect(() => {
-        fetch('https://gorest.co.in/public/v2/users')
+        fetch('https://demo5.kab-bantul.id/api/users')
             .then(response => response.json())
+            
             .then(res => dispatch(setDataUser(res)))
             .catch(err => setErr(err))
     }, [])
@@ -37,11 +38,13 @@ function Home() {
         <Box>
             <Box className="App">
                 <Box>
-                    <div style={{ display: "flex", marginLeft: 50 }}>
-                        <h1>Daftar Pengguna</h1>
+                    <div style={{ display: "justify-between", marginLeft: 50 }}>
+                        <h1>Diskominfo</h1>
+                        <h1>User</h1>
                     </div>
                     <Box style={{ marginLeft: 850, marginBottom: 50 }}>
-                        <Button variant='contained' onClick={() => navigate("/detail")}>Buat Pengguna</Button>
+                        <Button variant='contained' onClick={() => navigate("/detail")}>Fetch Data</Button>
+                        <Button variant='contained' onClick={() => navigate("/detail")}>Creat New Data</Button>
                     </Box>
                 </Box>
             </Box>
